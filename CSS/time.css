@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+  
+}
+main article p{
+    font-size: 24px;
+    margin-left: 200px;
+    margin-bottom: 25px;
+    width: 80%;
+}
+.time{
+  margin: 0 auto;
+  padding: 2em 2em;
+  border: 4px solid #25B3D3;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  width: 1144px
+}
+.container div img{
+    border-radius: 10px ;
+}
+.container div button{
+    margin-left: 20em;
+    font-family: "Alexandria", sans-serif ;
+    font-weight: bold;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #09738A;
+}
+.time2{
+    margin: 0 auto;
+    padding: 2em 2em;
+    border: 4px solid #25B3D3;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 1144px
+}
+.time button{
+    margin-top: 2em;
+}
+.time2 button{
+    margin-top: 1em;
+}
+.time h3, .time2 h3{
+    font-family: "Almarai", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 40px;
+}
+.time section p, .time2 section p{
+    font-family: "Almarai", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    text-align: left
+}

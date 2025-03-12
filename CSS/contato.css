@@ -1,0 +1,65 @@
+main article p{
+    font-size: 24px;
+    margin-left: 200px
+}
+#pg_contato{
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+#pg_contato div{
+    margin-left: 15%;
+}
+#pg_contato > div > h2{
+    font-size: 56px;
+    margin-top: 200px
+}
+#pg_contato > div > img{
+    position: absolute;
+    top: 370px;
+    left: 490px
+}
+form#contato {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 737px;
+    border: 8px solid #0098BB;
+    border-radius: 29px;
+    padding: 2em;
+}
+
+form#contato label {
+    margin-bottom: 0;
+    font-weight: 900;
+    font-family: "Alexandria", sans-serif;
+    font-size: 30px;
+    margin-left: 1em
+}
+
+form#contato input, 
+form#contato textarea {
+    padding: 0.5em;
+    border: none;
+    border-radius: 18px;
+    background-color: #0098BB;
+    color: white;
+    font-size: 16px;
+    width: 601px;
+    margin-left: 1.5em;
+    resize: none;
+    font-family: "Alexandria", sans-serif;
+}
+form button{
+    font-family: "Alexandria", sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    background-color: #09738A;
+    border: none;
+    width: 162px;
+    height: 46px;
+    border-radius: 60px;
+    margin-left: 1em;
+}

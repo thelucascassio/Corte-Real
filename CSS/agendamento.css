@@ -1,0 +1,188 @@
+body {
+    background: linear-gradient(to top, #092B5A, #1193AF);
+    color: white;
+}
+main h2.moglite{
+    margin-left: 0
+}
+main h2, main p{
+    text-align: center
+}
+main p{
+    font-size: 24px
+}
+.container {
+    background: #092037;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    margin: auto;
+    box-shadow: 0px 0px 10px #000;
+    margin-top: 2em;
+}
+#container-agenda, #container-agenda div a{
+    display: flex;
+    justify-content: center;
+}
+#container-agenda{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+}
+#container-agenda div{
+    width: 100%;
+    height: 100%;
+    padding: 0.3em 0;
+}
+#container-agenda div a{
+    font-family: "Alexandria", sans-serif;
+    font-weight: bolder;
+    font-size: 19px;
+    flex-direction: column;
+    text-align: center;
+}
+#container-agenda div a img{
+    margin: 0 auto;
+    margin-bottom: 2px
+}
+#calendar {
+    background-color: #033376;
+    height: 100%; /* Garante que tenha a mesma altura do container */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alinha o conteúdo do #calendar verticalmente */
+    border-radius: 10px 0 0 10px; /* Acompanha o arredondamento do container */
+}
+#work-time{
+    border-left: 1px solid white
+}
+select, button {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+}
+button[type="submit"]{
+    background-color: #09738A;
+    color: white;
+    font-size: 28px;
+    width: 162px;
+    height: 46px;
+    border-radius: 60px;
+}
+input[type="radio"] {
+    display: none; /* Esconde o radio */
+}
+label input[type="radio"]:checked + img {
+    border: 2px solid #1193AF;
+    box-shadow: 0 0 10px #1193AF;
+}
+label {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+label img {
+    width: 150px;
+    height: auto;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+}
+
+label h4{
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(to top, black, transparent);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px; 
+    font-size: 14px;
+    width: 85%;
+    text-align: center;
+    font-family: "Alexandria", sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+}
+.select{
+    display: flex;
+    align-items: center;
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+}
+.select img#rotate{
+    transform: rotate(-54deg);
+    width: 30px;
+    margin-right: 0
+}
+.select img{
+    width: 27px;
+    height: auto;
+    margin-right: 7px
+}
+select{
+    background-color: #033376;
+    color: white;
+    border: none;
+}
+.horarios{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto
+}
+.horarios input{
+    font-family: "Alexandria", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    background-color: #033376;
+    color: white;
+    width: 60px;
+    padding: 0.2em;
+}
+.horarios label {
+    font-family: "Alexandria", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    display: inline-block;
+    background-color: #033376;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 1s;
+    text-align: center;
+    width: 60px;
+    text-transform: uppercase;
+}
+
+.horarios input[type="radio"] {
+    display: none; /* Esconde o input */
+}
+
+.horarios label:has(input[type="radio"]:checked){
+    color: #fff;
+    background-color: #1193AF;
+}
+
+.horarios span {
+    display: block;
+    padding: 5px;
+}
+#dias{
+    display: flex;
+    justify-content: center;
+}
+#botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.6em;
+}

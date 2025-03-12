@@ -1,0 +1,109 @@
+*{
+    margin: 0
+}
+body{
+    background-color: #092B5A;
+}
+#und{
+    background-image: url("../Mídia/Imagens/Unidades/fundo.png");
+    height: 755px
+}
+.unidade{
+    width: 460px;
+    height: 460px;
+    border: 5px solid #1193AF;
+    border-radius: 8px;
+}
+.unidade img{
+    width: 460px;
+}
+#und2 .unidade h3{
+    font-family: "Alexandria", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    background-color: #297E8E;
+    max-width: 60%;
+    max-height: 69px;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4em;
+    margin-top: 4em;
+}
+section form{
+    display: flex;
+    justify-content: center
+}
+form{
+    width: 1060px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #297E8E;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+form input[type="image"]{
+    width: 40px;
+}
+form input[type="search"]{
+    border: none;
+    width: 1020px;
+    height: 80px;
+    background-color: #297E8E;
+    border-radius: 10px;
+}
+form input::placeholder{
+    color: white;
+    font-size: 27px;
+}
+#und h3, #und p{
+    margin-left: 200px;
+}
+#und h3{
+    position: relative;
+    top: 180px;
+    font-size: 55px;
+}
+#und p{
+    position: relative;
+    top: 190px;
+    font-size: 25px;
+}
+#und2{
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 6em;
+}
+#und2 h3{
+    margin-bottom: 0.2em;
+    font-size: 52px;
+    font-weight: 900
+}
+article{
+    margin: 0 auto;
+}
+#natal{
+    background-image: url("../Mídia/Imagens/Unidades/natal.png");
+    background-size: cover;
+}
+#criciuma{
+    background-image: url("../Mídia/Imagens/Unidades/criciuma.png");
+    background-size: cover;
+}
+#sp{
+    background-image: url("../Mídia/Imagens/Unidades/sp.png");
+    background-size: cover;
+}
+#caxias{
+    background-image: url("../Mídia/Imagens/Unidades/caxias.png");
+    background-size: cover;
+}

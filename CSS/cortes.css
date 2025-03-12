@@ -1,0 +1,119 @@
+h2.moglite {
+    font-family: 'MinhaFonte';
+    font-weight: 900;
+}
+.top{
+    padding-bottom: 30px; 
+}
+.top p {
+    font-family: "Almarai", sans-serif;
+    font-size: 20px;
+    margin-left: 206px;
+}
+.alta, .trad{
+    font-family: "Alexandria", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.2em
+}
+.emalta{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.tradicional{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+div.figure{
+    height: 305px;
+}
+div figure a img{
+    width: 305px;
+}
+.emalta figure a, .tradicional figure a{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.emalta figure a h3, .tradicional figure a h3 {
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    font-family: "Alexandria", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+.emalta figure a:hover, .tradicional figure a:hover {
+    transform: scale(1.05);
+}
+#institucional li{
+    height: 18px;
+}
+#atendimento ul li{
+    margin-bottom: 10px;
+}
+#atendimento ul li h4{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 0
+}
+#atendimento ul li{
+    height: 36px
+}
+.tooltip-inner {
+    font-family: "Almarai", sans-serif;
+    font-weight: bold;
+    background-color: #0E6EFF; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    font-size: 14px; /* Tamanho da fonte */
+    padding: 10px 15px; /* Padding interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    max-width: 300px;
+    white-space: normal;
+}
+
+/* Estilo da seta do tooltip */
+.tooltip-arrow {
+    border-top-color: #0E6EFF; /* Cor da seta */
+}
+
+/* Altera o comportamento do tooltip, como a posição */
+.tooltip.top .tooltip-arrow {
+    border-top-color: #0E6EFF; /* Cor da seta */
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #0E6EFF; /* Cor da seta */
+}
+
+.tooltip-left .tooltip-arrow {
+    border-left-color: #0E6EFF; /* Cor da seta */
+}
+
+.tooltip-right .tooltip-arrow {
+    border-right-color: #0E6EFF; /* Cor da seta */
+}
+
+/* Opacidade e transição para o efeito de suavização */
+.tooltip {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Tooltip visível ao passar o mouse */
+.tooltip.show {
+    opacity: 1;
+}

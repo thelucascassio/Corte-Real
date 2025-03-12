@@ -1,0 +1,180 @@
+#institucional li{
+    height: 18px;
+}
+#atendimento ul li{
+    margin-bottom: 10px;
+}
+#atendimento ul li h4{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 0
+}
+#atendimento ul li{
+    height: 36px
+}
+#botaomain{
+    display: none;
+}
+#index2 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+#index2 h2{
+    font-size: 45px;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+#index2 .cardindex{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#index2 .cardindex h4{
+    position: absolute;
+    font-weight: bold;
+    font-size: 50px;
+    bottom: -1px;
+    width: 98%;
+    background: linear-gradient(to top, black, transparent);
+}
+#index2 a{
+    height: 64px;
+}
+#seta2{
+    transform: rotate(180deg);
+}
+/* TIME */
+@media screen and (max-width: 500px) {
+    main{
+        margin-top: 0;
+    }
+    h1{
+        width: 80%;
+        margin: 0 auto;
+    }
+    h1 a img{
+        width: 380px
+    }
+    header {
+      padding: 10px;
+    }
+    #index2 a{
+        height: 34px;
+    }
+    .part1 {
+      width: 100%;
+      margin: 0;
+      justify-content: space-between;
+    }
+    
+    header nav ul {
+      width: auto;       
+      flex-wrap: wrap;   
+      justify-content: center;
+    }
+    header nav ul li {
+      margin: 5px;      
+    }
+    header nav ul li a {
+      font-size: 18px;   
+    }
+  
+    header > .part1 button{
+        display: none;
+    }
+    #botaomain{
+        display: block;
+        display: flex;
+        align-items: center;
+        background-color: #09738A;
+        font-family: "Alexandria", sans-serif;
+        font-weight: 600;
+        padding: 1em;
+        border: none;
+        border-radius: 12px;
+        width: 190px;
+        height: 45px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    #carouselExampleSlidesOnly {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+    #carouselExampleSlidesOnly .carousel-inner,
+    main article figure {
+      width: 100%;
+    }
+  
+    /* Seção Index1: Ajuste para empilhar imagem e texto */
+    #index1 {
+      width: 100%;
+      flex-direction: column; /* Aqui alteramos para column para acomodar melhor o conteúdo */
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .texto h3,
+    .texto p {
+      text-align: center;
+      padding: 0 10px;
+    }
+
+    .texto h3{
+        font-size: 25px;
+    }
+    .texto p{
+        font-size: 15px;
+    }
+    
+    #index1 figure{
+        display: none;
+    }
+    /* Seção Index2: Empilhar os itens e ajustar tamanhos */
+    #index2 h2 {
+      width: 100%;
+      font-size: 31px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 15px;
+    }
+    #index2 .container {
+      gap: 10px;
+      align-items: center;
+    }
+    #index2 a img, #seta2 img{
+        width: 20px;
+    }
+    #index2 .container .cardindex, #index2 .container .cardindex img{
+        width: 280px;
+    }
+    #index2 .container .dois, #index2 .container .tres{
+        display: none;
+    }
+    .cardindex {
+      width: 90%;   /* Diminui a largura para caber na tela */
+    }
+    #index2 .cardindex h4{
+        font-size: 42px
+    }
+    #index2 a {
+      margin: 10px 0;
+    }
+    footer div div{
+        font-size: small;
+    }
+    #atendimento ul #hr{
+        margin-bottom: 27px;
+    }
+    /* Footer: Tornar o layout mais compacto */
+    .contfooter {
+      gap: 10px;
+      width: 90%;
+    }
+  }
