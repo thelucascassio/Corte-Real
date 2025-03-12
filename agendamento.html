@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/agendamento.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>Corte Real</title>
+</head>
+<body>
+    <header>
+        <div class="part1">
+            <h1><a href="index.html"><img src="Mídia/Imagens/Página inicial/logo.png" alt="Logo da barbearia Corte Real"></a></h1>
+            <button onclick="window.location.href='agendamento.html'" class="alexandria-bold">AGENDAR</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="time.html">TIME</a></li>
+                <li><a href="cortes.html">CORTES</a></li>
+                <li><a href="unidades.html">UNIDADES</a></li>
+                <li><a href="servicos.html">SERVIÇOS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <article>
+            <h2 class="moglite">AGENDAMENTO</h2>
+            <p class="almarai-regular">Agende seu serviço de forma rápida e prática! Escolha o serviço, selecione o horário<br>e garanta um atendimento de qualidade com nossa equipe.</p>
+            <div class="container">
+                <form action="">
+                    <div id="container-agenda">
+                        <div id="calendar">
+                            <a href=""><img src="Mídia/Ícones/Agendamento/calendar.png" alt="Ícone de calendário" width="30">AGENDAR</a>
+                        </div>
+                        <div id="work-time">
+                            <a href=""><img src="Mídia/Ícones/Agendamento/work-time.png" alt="Ícone de uma pessoa com um relógio" width="30">MEUS HORÁRIOS</a>
+                        </div>
+                    </div>
+                    <section class="select">
+                        <img src="Mídia/Ícones/Agendamento/loc.png" alt="Ícone de localização">
+                        <h3 class="almarai-bold">Selecione uma unidade:</h3>
+                    </section>
+                    <label>
+                        <input type="radio" name="unidade" value="natal" required>
+                        <img src="Mídia/Imagens/Unidades/natal.png" alt="Unidade Natal">
+                        <h4>NATAL</h4>
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="unidade" value="criciuma" required>
+                        <img src="Mídia/Imagens/Unidades/criciuma.png" alt="Unidade Criciúma">
+                        <h4>CRICIÚMA</h4>
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="unidade" value="saopaulo" required>
+                        <img src="Mídia/Imagens/Unidades/sp.png" alt="Unidade São Paulo">
+                        <h4>SP</h4>
+                    </label>
+                    <label>
+                        <input type="radio" name="unidade" value="caxias" required>
+                        <img src="Mídia/Imagens/Unidades/caxias.png" alt="Unidade São Paulo">
+                        <h4>CAXIAS</h4>
+                    </label>
+                    <section class="select">
+                        <img src="Mídia/Ícones/Agendamento/scissors.png" alt="Ícone de uma tesoura" id="rotate">
+                        <h3 class="almarai-bold">Selecione um serviço:</h3>
+                    </section>
+                    <label>
+                        <input type="radio" name="servico" value="corte" required>
+                        <img src="Mídia/Imagens/Agendamento/Serviços/corte.png" alt="Imagem do serviço de corte">
+                        <h4>CORTE</h4>
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="servico" value="barba" required>
+                        <img src="Mídia/Imagens/Agendamento/Serviços/barba.png" alt="Imagem do serviço de barba">
+                        <h4>BARBA</h4>
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="servico" value="maquina" required>
+                        <img src="Mídia/Imagens/Agendamento/Serviços/maquina.png" alt="Imagem do serviço de máquina">
+                        <h4>MÁQUINA</h4>
+                    </label>
+                    <label>
+                        <input type="radio" name="servico" value="escova" required>
+                        <img src="Mídia/Imagens/Agendamento/Serviços/escova.png" alt="Imagem do serviço de escova">
+                        <h4>ESCOVA</h4>
+                    </label>
+                    <section class="select">
+                        <img src="Mídia/Ícones/Agendamento/user.png" alt="Ícone de uma pessoa">
+                        <h3 class="almarai-bold">Selecione um profissional:</h3>
+                    </section>
+                    <label>
+                        <input type="radio" name="profissional" value="bruno" required>
+                        <img src="Mídia/Imagens/Agendamento/Profissionais/bruno.png" alt="Imagem do profissional Bruno">
+                        <h4>BRUNO</h4>
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="profissional" value="daniel" required>
+                        <img src="Mídia/Imagens/Agendamento/Profissionais/daniel.png" alt="Imagem do profissional Daniel">
+                        <h4>DANIEL</h4>
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="profissional" value="ricardo" required>
+                        <img src="Mídia/Imagens/Agendamento/Profissionais/ricardo.png" alt="Imagem do profissional Ricardo">
+                        <h4>RICARDO</h4>
+                    </label>
+                    <section class="select">
+                        <img src="Mídia/Ícones/Agendamento/clock.png" alt="Ícone de um relógio, indicando horário">
+                        <h3 class="almarai-bold">Selecione uma data e horário:</h3>
+                    </section>
+                    <div id="dias">
+                        <select name="data" class="alexandria-bold" id="data">
+                            <option value="11mar">11 de março | terça-feira</option>
+                            <option value="12mar">12 de março | quarta-feira</option>
+                            <option value="13mar">13 de março | quinta-feira</option>
+                            <option value="14mar">14 de março | sexta-feira</option>
+                            <option value="15mar">15 de março | sábado</option>
+                        </select>
+                    </div>
+                    <div class="horarios">
+                        <label><input type="radio" name="horario" required><span>10:00</span></label>
+                        <label><input type="radio" name="horario" required><span>10:30</span></label>
+                        <label><input type="radio" name="horario" required><span>11:00</span></label>
+                        <label><input type="radio" name="horario" required><span>11:30</span></label>
+                        <label><input type="radio" name="horario" required><span>13:00</span></label>
+                        <label><input type="radio" name="horario" required><span>13:30</span></label>
+                        <label><input type="radio" name="horario" required><span>14:30</span></label>
+                        <label><input type="radio" name="horario" required><span>15:30</span></label>
+                    </div>
+                    
+                    <div id="botao">
+                        <button type="submit" class="alexandria-bold">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
+        </article>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="contfooter">
+            <div id="institucional">
+                <h3>INSTITUCIONAL</h3>
+                <ul>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="unidades.html">Unidades</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="time.html">Time</a></li>
+                    <li><a href="cortes.html">Cortes</a></li>
+                </ul>
+            </div>
+            <div id="atendimento">
+                <h3>ATENDIMENTO</h3>
+                <ul>
+                    <li>
+                        <h4>Telefone</h4>
+                        <p>(84) 99999-9999</p>
+                    </li>
+                    <li>
+                        <h4>Horário de funcionamento</h4>
+                        <p>Seg. à Sex. das 9h às 18h</p>
+                    </li>
+                    <li>
+                        <h4>Contato</h4>
+                        <p>cortereal@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+            <div id="redes">
+                <h3>REDES SOCIAIS</h3>
+                <ul>
+                    <li><a href=""><img src="Mídia/Ícones/Geral/instagram.png" alt="Logo do Instagram">Instagram</a></li>
+                    <li><a href=""><img src="Mídia/Ícones/Geral/facebook.png" alt="Logo do Facebook">Facebook</a></li>
+                    <li><a href=""><img src="Mídia/Ícones/Geral/tiktok.png" alt="Logo do TikTok">TikTok</a></li>
+                    <li><a href=""><img src="Mídia/Ícones/Geral/youtube.png" alt="Logo do Youtube">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
